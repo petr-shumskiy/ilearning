@@ -37,7 +37,7 @@ function LoginPageContainer({localStorageName, authService, authenticate}) {
       const token = await authService.facebookAuthenticate(res)
       authenticate(token, localStorageName)
     } catch (e) {
-      errorNotify(e.message)
+      errorNotify('Unfortunately, something is wrong with facebook authorization')
       }
     }
 
@@ -49,7 +49,7 @@ function LoginPageContainer({localStorageName, authService, authenticate}) {
       const token = await authService.googleAuthenticate({...profileObj, expires_in})
       authenticate(token, localStorageName)
     } catch (e) {
-      errorNotify(e.message)
+      errorNotify('Unfortunately, something is wrong with google authorization')
     }
   }
 
