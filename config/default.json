@@ -1,10 +1,10 @@
 {
   "port": 5000,
   "database": {
-    "host": "localhost",
-    "schema": "itransition",
-    "user": "root",
-    "password": "Petechqa98"
+    "host": "us-cdbr-iron-east-01.cleardb.net",
+    "schema": "heroku_352fa56340aead0",
+    "user": "be347b6294848c",
+    "password": "65d9bb80"
   },
   "jwtKey": "RR7<KyG$+4",
   "facebook": {
