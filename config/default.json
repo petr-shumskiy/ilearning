@@ -1,0 +1,19 @@
+{
+  "port": 5000,
+  "database": {
+    "host": "localhost",
+    "schema": "itransition",
+    "user": "root",
+    "password": "Petechqa98"
+  },
+  "jwtKey": "RR7<KyG$+4",
+  "facebook": {
+    "clientID": "1163865873949536",
+    "clientSecret": "ee5e43e54d573c60365c63d021b81744",
+    "callbackURL": "http://localhost:5000/api/auth/facebook/callback"
+  },
+  "google": {
+    "clientID": "241755346247-recl9ci3k6jspvkta6o71niu6flga9jj.apps.googleusercontent.com",
+    "clientSecret": "IsjZDLcFeDksyb6PamtJWS5B"
+  }
+}
